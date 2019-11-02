@@ -3,29 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EFFD0FAA9C17BEB6555CC85 /* Pods_IOTAssignment3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99860CAAACFC4D901BF5225 /* Pods_IOTAssignment3.framework */; };
 		2636C8D92366F2530021987D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8D82366F2530021987D /* AppDelegate.swift */; };
 		2636C8DB2366F2530021987D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8DA2366F2530021987D /* SceneDelegate.swift */; };
-		2636C8DD2366F2530021987D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8DC2366F2530021987D /* ViewController.swift */; };
 		2636C8E02366F2530021987D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636C8DE2366F2530021987D /* Main.storyboard */; };
 		2636C8E32366F2530021987D /* IOTAssignment3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8E12366F2530021987D /* IOTAssignment3.xcdatamodeld */; };
 		2636C8E52366F2550021987D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636C8E42366F2550021987D /* Assets.xcassets */; };
 		2636C8E82366F2550021987D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636C8E62366F2550021987D /* LaunchScreen.storyboard */; };
+		2636C8F42367C1640021987D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8F32367C1640021987D /* LoginViewController.swift */; };
+		2636C8F62367C1870021987D /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8F52367C1870021987D /* RoomsViewController.swift */; };
+		2636C8F82367C1990021987D /* RoomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8F72367C1990021987D /* RoomDetailViewController.swift */; };
+		2636C8FA2367C1B40021987D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8F92367C1B40021987D /* ProfileController.swift */; };
+		2636C8FC2367C1CA0021987D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8FB2367C1CA0021987D /* AboutViewController.swift */; };
+		2636C8FE2367C96E0021987D /* RoomsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C8FD2367C96E0021987D /* RoomsTableViewCell.swift */; };
+		2636C9002367DD9A0021987D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2636C8FF2367DD9A0021987D /* GoogleService-Info.plist */; };
+		2636C90223683A460021987D /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C90123683A460021987D /* RoomDetail.swift */; };
+		2636C90423685DC40021987D /* RoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C90323685DC40021987D /* RoomData.swift */; };
+		26D5E0C6236D1FBB00A733B3 /* ChairCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5E0C5236D1FBB00A733B3 /* ChairCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2636C8D52366F2530021987D /* IOTAssignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTAssignment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2636C8D52366F2530021987D /* MSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2636C8D82366F2530021987D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2636C8DA2366F2530021987D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2636C8DC2366F2530021987D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2636C8DF2366F2530021987D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2636C8E22366F2530021987D /* IOTAssignment3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOTAssignment3.xcdatamodel; sourceTree = "<group>"; };
 		2636C8E42366F2550021987D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2636C8E72366F2550021987D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2636C8E92366F2550021987D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636C8F32367C1640021987D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2636C8F52367C1870021987D /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		2636C8F72367C1990021987D /* RoomDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailViewController.swift; sourceTree = "<group>"; };
+		2636C8F92367C1B40021987D /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		2636C8FB2367C1CA0021987D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2636C8FD2367C96E0021987D /* RoomsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTableViewCell.swift; sourceTree = "<group>"; };
+		2636C8FF2367DD9A0021987D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2636C90123683A460021987D /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		2636C90323685DC40021987D /* RoomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomData.swift; sourceTree = "<group>"; };
+		26D5E0C5236D1FBB00A733B3 /* ChairCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C547E06970A769AB35EBE09 /* Pods-IOTAssignment3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTAssignment3.debug.xcconfig"; path = "Target Support Files/Pods-IOTAssignment3/Pods-IOTAssignment3.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD7D4D29470DB83EAA830C5 /* Pods-IOTAssignment3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTAssignment3.release.xcconfig"; path = "Target Support Files/Pods-IOTAssignment3/Pods-IOTAssignment3.release.xcconfig"; sourceTree = "<group>"; };
+		F99860CAAACFC4D901BF5225 /* Pods_IOTAssignment3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTAssignment3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +55,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFFD0FAA9C17BEB6555CC85 /* Pods_IOTAssignment3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08450C2E9EA0B0452585202A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F99860CAAACFC4D901BF5225 /* Pods_IOTAssignment3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2636C8CC2366F2530021987D = {
 			isa = PBXGroup;
 			children = (
 				2636C8D72366F2530021987D /* IOTAssignment3 */,
 				2636C8D62366F2530021987D /* Products */,
+				DBAC840EDCD16840079FA302 /* Pods */,
+				08450C2E9EA0B0452585202A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2636C8D62366F2530021987D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2636C8D52366F2530021987D /* IOTAssignment3.app */,
+				2636C8D52366F2530021987D /* MSpace.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,14 +93,48 @@
 			children = (
 				2636C8D82366F2530021987D /* AppDelegate.swift */,
 				2636C8DA2366F2530021987D /* SceneDelegate.swift */,
-				2636C8DC2366F2530021987D /* ViewController.swift */,
+				2636C8F12367C04F0021987D /* Cells */,
+				2636C8EF2367C0320021987D /* Controller */,
 				2636C8DE2366F2530021987D /* Main.storyboard */,
 				2636C8E42366F2550021987D /* Assets.xcassets */,
 				2636C8E62366F2550021987D /* LaunchScreen.storyboard */,
 				2636C8E92366F2550021987D /* Info.plist */,
 				2636C8E12366F2530021987D /* IOTAssignment3.xcdatamodeld */,
+				2636C8FF2367DD9A0021987D /* GoogleService-Info.plist */,
 			);
 			path = IOTAssignment3;
+			sourceTree = "<group>";
+		};
+		2636C8EF2367C0320021987D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2636C90123683A460021987D /* RoomDetail.swift */,
+				2636C90323685DC40021987D /* RoomData.swift */,
+				2636C8F32367C1640021987D /* LoginViewController.swift */,
+				2636C8F52367C1870021987D /* RoomsViewController.swift */,
+				2636C8F72367C1990021987D /* RoomDetailViewController.swift */,
+				2636C8F92367C1B40021987D /* ProfileController.swift */,
+				2636C8FB2367C1CA0021987D /* AboutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2636C8F12367C04F0021987D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2636C8FD2367C96E0021987D /* RoomsTableViewCell.swift */,
+				26D5E0C5236D1FBB00A733B3 /* ChairCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DBAC840EDCD16840079FA302 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C547E06970A769AB35EBE09 /* Pods-IOTAssignment3.debug.xcconfig */,
+				5CD7D4D29470DB83EAA830C5 /* Pods-IOTAssignment3.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2636C8EC2366F2550021987D /* Build configuration list for PBXNativeTarget "IOTAssignment3" */;
 			buildPhases = (
+				267415F60A9445F527A2D90A /* [CP] Check Pods Manifest.lock */,
 				2636C8D12366F2530021987D /* Sources */,
 				2636C8D22366F2530021987D /* Frameworks */,
 				2636C8D32366F2530021987D /* Resources */,
+				8820BCBB79D70552F5B7B358 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +156,7 @@
 			);
 			name = IOTAssignment3;
 			productName = IOTAssignment3;
-			productReference = 2636C8D52366F2530021987D /* IOTAssignment3.app */;
+			productReference = 2636C8D52366F2530021987D /* MSpace.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,20 +199,71 @@
 			files = (
 				2636C8E82366F2550021987D /* LaunchScreen.storyboard in Resources */,
 				2636C8E52366F2550021987D /* Assets.xcassets in Resources */,
+				2636C9002367DD9A0021987D /* GoogleService-Info.plist in Resources */,
 				2636C8E02366F2530021987D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		267415F60A9445F527A2D90A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOTAssignment3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8820BCBB79D70552F5B7B358 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOTAssignment3/Pods-IOTAssignment3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOTAssignment3/Pods-IOTAssignment3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOTAssignment3/Pods-IOTAssignment3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2636C8D12366F2530021987D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2636C8DD2366F2530021987D /* ViewController.swift in Sources */,
+				2636C8F82367C1990021987D /* RoomDetailViewController.swift in Sources */,
+				2636C8F42367C1640021987D /* LoginViewController.swift in Sources */,
+				26D5E0C6236D1FBB00A733B3 /* ChairCollectionViewCell.swift in Sources */,
 				2636C8D92366F2530021987D /* AppDelegate.swift in Sources */,
+				2636C8FE2367C96E0021987D /* RoomsTableViewCell.swift in Sources */,
+				2636C90223683A460021987D /* RoomDetail.swift in Sources */,
+				2636C8F62367C1870021987D /* RoomsViewController.swift in Sources */,
+				2636C8FA2367C1B40021987D /* ProfileController.swift in Sources */,
 				2636C8DB2366F2530021987D /* SceneDelegate.swift in Sources */,
+				2636C90423685DC40021987D /* RoomData.swift in Sources */,
+				2636C8FC2367C1CA0021987D /* AboutViewController.swift in Sources */,
 				2636C8E32366F2530021987D /* IOTAssignment3.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +406,7 @@
 		};
 		2636C8ED2366F2550021987D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C547E06970A769AB35EBE09 /* Pods-IOTAssignment3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ojas-chimane.IOTAssignment3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSpace;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +425,7 @@
 		};
 		2636C8EE2366F2550021987D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD7D4D29470DB83EAA830C5 /* Pods-IOTAssignment3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ojas-chimane.IOTAssignment3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MSpace;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

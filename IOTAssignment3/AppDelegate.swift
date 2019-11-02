@@ -8,14 +8,18 @@
 
 import UIKit
 import CoreData
+import Firebase
 
+// Referred official Firebase documentation from https://firebase.google.com/docs/ios/setup
+// Used icon for app from https://www.flaticon.com
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
         // Override point for customization after application launch.
+        
         return true
     }
 
@@ -77,6 +81,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+  
 
 }
 
